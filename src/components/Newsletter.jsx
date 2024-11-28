@@ -18,13 +18,13 @@ async function Newsletter() {
         <label htmlFor="name" className="block text-gray-700 font-bold mb-2">
           Name
         </label>
-        <input type="text" id="name" name="name" className="w-full px-3 py-2 border border-gray-300 rounded" />
+        <input type="text" id="name" name="name" required className="w-full px-3 py-2 border border-gray-300 rounded" />
       </div>
       <div className="mb-4">
         <label htmlFor="email" className="block text-gray-700 font-bold mb-2">
           Email
         </label>
-        <input type="email" id="email" name="email" className="w-full px-3 py-2 border border-gray-300 rounded" />
+        <input type="email" id="email" name="email" required className="w-full px-3 py-2 border border-gray-300 rounded " />
       </div>
       <button type="submit" className="w-full bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-700">
         Subscribe
